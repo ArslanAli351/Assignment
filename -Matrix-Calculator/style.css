@@ -1,0 +1,143 @@
+body {
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1300px 1800px;
+}
+
+#firstHeading {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: x-large;
+}
+
+#mainHead {
+    width: 70%;
+    margin-top: 30px;
+    border: 3px solid #333;
+    border-radius: 50px 25px;
+    box-shadow: 10px 10px 5px #e6caad;
+    margin-left: 150px;
+}
+
+#matrix {
+
+    height: 70px;
+    text-align: center;
+}
+
+#matrix input {
+    height: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 15px 50px;
+}
+
+#matrix button {
+    border-radius: 10px 20px 30px 40px;
+    height: 20px;
+    width: 10%;
+}
+
+#main {
+    margin-top: 180px;
+
+
+}
+
+.main {
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+}
+
+
+#Matrix_A {
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#Matrix_B {
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+#sum {
+    margin-left: 320px;
+    border-radius: 10% / 50%;
+    width: 9%;
+    height: 30px;
+}
+
+#minus {
+    border-radius: 10% / 50%;
+    width: 9%;
+    height: 30px;
+}
+
+#sum:hover {
+    height: 38px;
+    width: 11%;
+    color: #17634a;
+    background-color: #eced94;
+}
+
+#minus:hover {
+    height: 38px;
+    width: 11%;
+    color: #17634a;
+    background-color: #eced94;
+}
+
+.heading {
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 550px) {
+
+    #mainHead {
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    #matrix input {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    #matrix button {
+        margin-top: 10px;
+        width: 30%;
+    }
+
+    #Matrix_A {
+        margin-top: 40px;
+    }
+
+    #sum {
+        margin-left: 55px;
+        width: 30%;
+    }
+
+    #minus {
+        width: 30%;
+
+    }
+}
